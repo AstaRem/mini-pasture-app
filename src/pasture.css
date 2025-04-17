@@ -1,0 +1,93 @@
+:root{
+    --light-grey: #cea5a5;
+    --darker-grey: #8a6d6d;
+    --dark-grey: #423232;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+h2 {
+    margin: 50px auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 5px 30px;
+
+}
+
+input, select {
+    width: 250px;
+    height: 30px;
+    border: 1px solid var(--darker-grey);
+    border-radius: 7px;
+    padding: 1px 2px;
+}
+
+
+
+.add-update-btn, .edit-btn, .delete-btn{
+    letter-spacing: 1px;
+    background-color: var(--dark-grey);
+    color: white;
+    border: none;
+    border: none;
+    border-radius: 7px;
+}
+
+
+.add-update-btn {
+    width: 150px;
+    height: 30px;
+}
+
+.edit-btn, .delete-btn {
+    width: 50px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.add-update-btn:hover, .edit-btn:hover, .delete-btn:hover  {
+    background-color: var(--darker-grey);
+}
+
+.editing{
+    background-color: var(--light-grey);
+}
+
+
+
+
